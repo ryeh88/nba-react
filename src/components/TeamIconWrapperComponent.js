@@ -1,7 +1,7 @@
 'use strict';
 
 import React from 'react';
-import TeamIcon from './TeamIconWrapperComponent';
+
 
 
 
@@ -9,8 +9,10 @@ require('styles//TeamIconWrapper.css');
 
 export default class TeamIconWrapper extends React.Component {
   render() {
-    return (
-      <ul className="team-icon-wrapper">Text</ul>
+    return (	
+    	  <div className="team-icon-wrapper">
+ 
+    	  </div>
     );
   }
 }
